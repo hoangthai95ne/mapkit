@@ -7,21 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB566FD71CD2D37C0079D035 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB566FD61CD2D37C0079D035 /* Person.swift */; };
+		AB566FD91CD2D3840079D035 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB566FD81CD2D3840079D035 /* Group.swift */; };
+		AB566FDB1CD2D4340079D035 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB566FDA1CD2D4340079D035 /* CoreLocation.framework */; };
+		AB566FDD1CD2D4390079D035 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB566FDC1CD2D4390079D035 /* MapKit.framework */; };
+		ABDC62731CD61B1E0015DF13 /* DetailGroupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDC62721CD61B1E0015DF13 /* DetailGroupVC.swift */; };
+		ABDE2D021CD6EE02005B71FC /* TJTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDE2D011CD6EE02005B71FC /* TJTextField.swift */; };
+		ABDE2D041CD70562005B71FC /* MaterialCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDE2D031CD70562005B71FC /* MaterialCell.swift */; };
+		ABDE2D061CD715E6005B71FC /* miniTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDE2D051CD715E6005B71FC /* miniTableViewCell.swift */; };
+		ABDE2D081CD7217E005B71FC /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDE2D071CD7217E005B71FC /* SignUpVC.swift */; };
+		ABE8D0381CD5BF9B006DF3CA /* GroupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE8D0371CD5BF9B006DF3CA /* GroupVC.swift */; };
+		ABE8D03A1CD5C7BE006DF3CA /* NewGroupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE8D0391CD5C7BE006DF3CA /* NewGroupVC.swift */; };
 		ABEBF4C61CD1C11C00353643 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEBF4C51CD1C11C00353643 /* AppDelegate.swift */; };
-		ABEBF4C81CD1C11C00353643 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEBF4C71CD1C11C00353643 /* ViewController.swift */; };
 		ABEBF4CB1CD1C11C00353643 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABEBF4C91CD1C11C00353643 /* Main.storyboard */; };
 		ABEBF4CD1CD1C11C00353643 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABEBF4CC1CD1C11C00353643 /* Assets.xcassets */; };
 		ABEBF4D01CD1C11C00353643 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABEBF4CE1CD1C11C00353643 /* LaunchScreen.storyboard */; };
+		ABEBF4D91CD1C14700353643 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEBF4D81CD1C14700353643 /* DataService.swift */; };
+		ABEBF4DF1CD1E83C00353643 /* AuthorizationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEBF4DE1CD1E83C00353643 /* AuthorizationVC.swift */; };
+		ABEBF4E31CD1E9A600353643 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEBF4E01CD1E9A600353643 /* MaterialButton.swift */; };
+		ABEBF4E41CD1E9A600353643 /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEBF4E11CD1E9A600353643 /* MaterialTextField.swift */; };
+		ABEBF4E51CD1E9A600353643 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEBF4E21CD1E9A600353643 /* MaterialView.swift */; };
+		ABEBF4E71CD1E9B800353643 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEBF4E61CD1E9B800353643 /* Constant.swift */; };
+		CE0E7C4FA8FC990191AA9D55 /* Pods_mapkit_simple_v2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D409B9F41B8C6FB9C505ADC /* Pods_mapkit_simple_v2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		50ED4B65BD9E9F101E95C2C0 /* Pods-mapkit-simple-v2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mapkit-simple-v2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mapkit-simple-v2/Pods-mapkit-simple-v2.debug.xcconfig"; sourceTree = "<group>"; };
+		5D409B9F41B8C6FB9C505ADC /* Pods_mapkit_simple_v2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mapkit_simple_v2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D917E5E2F815C55588A2FF0 /* Pods-mapkit-simple-v2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mapkit-simple-v2.release.xcconfig"; path = "Pods/Target Support Files/Pods-mapkit-simple-v2/Pods-mapkit-simple-v2.release.xcconfig"; sourceTree = "<group>"; };
+		AB566FD61CD2D37C0079D035 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		AB566FD81CD2D3840079D035 /* Group.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		AB566FDA1CD2D4340079D035 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		AB566FDC1CD2D4390079D035 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		ABDC62721CD61B1E0015DF13 /* DetailGroupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailGroupVC.swift; sourceTree = "<group>"; };
+		ABDE2D011CD6EE02005B71FC /* TJTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TJTextField.swift; sourceTree = "<group>"; };
+		ABDE2D031CD70562005B71FC /* MaterialCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialCell.swift; sourceTree = "<group>"; };
+		ABDE2D051CD715E6005B71FC /* miniTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = miniTableViewCell.swift; sourceTree = "<group>"; };
+		ABDE2D071CD7217E005B71FC /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		ABE8D0371CD5BF9B006DF3CA /* GroupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupVC.swift; sourceTree = "<group>"; };
+		ABE8D0391CD5C7BE006DF3CA /* NewGroupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewGroupVC.swift; sourceTree = "<group>"; };
 		ABEBF4C21CD1C11C00353643 /* mapkit-simple-v2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mapkit-simple-v2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABEBF4C51CD1C11C00353643 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ABEBF4C71CD1C11C00353643 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ABEBF4CA1CD1C11C00353643 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ABEBF4CC1CD1C11C00353643 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABEBF4CF1CD1C11C00353643 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABEBF4D11CD1C11C00353643 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABEBF4D81CD1C14700353643 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		ABEBF4DE1CD1E83C00353643 /* AuthorizationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorizationVC.swift; sourceTree = "<group>"; };
+		ABEBF4E01CD1E9A600353643 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
+		ABEBF4E11CD1E9A600353643 /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
+		ABEBF4E21CD1E9A600353643 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		ABEBF4E61CD1E9B800353643 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +65,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB566FDD1CD2D4390079D035 /* MapKit.framework in Frameworks */,
+				AB566FDB1CD2D4340079D035 /* CoreLocation.framework in Frameworks */,
+				CE0E7C4FA8FC990191AA9D55 /* Pods_mapkit_simple_v2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A72EC58489223F7A013049D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB566FDC1CD2D4390079D035 /* MapKit.framework */,
+				AB566FDA1CD2D4340079D035 /* CoreLocation.framework */,
+				5D409B9F41B8C6FB9C505ADC /* Pods_mapkit_simple_v2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ABEBF4B91CD1C11C00353643 = {
 			isa = PBXGroup;
 			children = (
 				ABEBF4C41CD1C11C00353643 /* mapkit-simple-v2 */,
 				ABEBF4C31CD1C11C00353643 /* Products */,
+				CAB4011D37DEE23303B3C598 /* Pods */,
+				9A72EC58489223F7A013049D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +105,77 @@
 		ABEBF4C41CD1C11C00353643 /* mapkit-simple-v2 */ = {
 			isa = PBXGroup;
 			children = (
-				ABEBF4C51CD1C11C00353643 /* AppDelegate.swift */,
-				ABEBF4C71CD1C11C00353643 /* ViewController.swift */,
-				ABEBF4C91CD1C11C00353643 /* Main.storyboard */,
+				ABEBF4DD1CD1E58C00353643 /* Constant */,
+				ABEBF4D71CD1C12F00353643 /* DataServices */,
+				ABEBF4DB1CD1E58400353643 /* Layouts */,
+				ABEBF4DA1CD1E57F00353643 /* Models */,
+				ABEBF4DC1CD1E58800353643 /* Controller */,
 				ABEBF4CC1CD1C11C00353643 /* Assets.xcassets */,
-				ABEBF4CE1CD1C11C00353643 /* LaunchScreen.storyboard */,
 				ABEBF4D11CD1C11C00353643 /* Info.plist */,
 			);
 			path = "mapkit-simple-v2";
+			sourceTree = "<group>";
+		};
+		ABEBF4D71CD1C12F00353643 /* DataServices */ = {
+			isa = PBXGroup;
+			children = (
+				ABEBF4D81CD1C14700353643 /* DataService.swift */,
+			);
+			name = DataServices;
+			sourceTree = "<group>";
+		};
+		ABEBF4DA1CD1E57F00353643 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AB566FD61CD2D37C0079D035 /* Person.swift */,
+				AB566FD81CD2D3840079D035 /* Group.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		ABEBF4DB1CD1E58400353643 /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				ABDE2D031CD70562005B71FC /* MaterialCell.swift */,
+				ABDE2D051CD715E6005B71FC /* miniTableViewCell.swift */,
+				ABEBF4E01CD1E9A600353643 /* MaterialButton.swift */,
+				ABEBF4E11CD1E9A600353643 /* MaterialTextField.swift */,
+				ABEBF4E21CD1E9A600353643 /* MaterialView.swift */,
+				ABDE2D011CD6EE02005B71FC /* TJTextField.swift */,
+				ABEBF4C91CD1C11C00353643 /* Main.storyboard */,
+				ABEBF4CE1CD1C11C00353643 /* LaunchScreen.storyboard */,
+			);
+			name = Layouts;
+			sourceTree = "<group>";
+		};
+		ABEBF4DC1CD1E58800353643 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ABEBF4DE1CD1E83C00353643 /* AuthorizationVC.swift */,
+				ABDE2D071CD7217E005B71FC /* SignUpVC.swift */,
+				ABE8D0371CD5BF9B006DF3CA /* GroupVC.swift */,
+				ABDC62721CD61B1E0015DF13 /* DetailGroupVC.swift */,
+				ABE8D0391CD5C7BE006DF3CA /* NewGroupVC.swift */,
+				ABEBF4C51CD1C11C00353643 /* AppDelegate.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		ABEBF4DD1CD1E58C00353643 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				ABEBF4E61CD1E9B800353643 /* Constant.swift */,
+			);
+			name = Constant;
+			sourceTree = "<group>";
+		};
+		CAB4011D37DEE23303B3C598 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50ED4B65BD9E9F101E95C2C0 /* Pods-mapkit-simple-v2.debug.xcconfig */,
+				5D917E5E2F815C55588A2FF0 /* Pods-mapkit-simple-v2.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +185,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ABEBF4D41CD1C11C00353643 /* Build configuration list for PBXNativeTarget "mapkit-simple-v2" */;
 			buildPhases = (
+				FF94CA614A805F67E451B750 /* Check Pods Manifest.lock */,
 				ABEBF4BE1CD1C11C00353643 /* Sources */,
 				ABEBF4BF1CD1C11C00353643 /* Frameworks */,
 				ABEBF4C01CD1C11C00353643 /* Resources */,
+				24CC6329F6518B46A644C37C /* Embed Pods Frameworks */,
+				2E78D5B52EA8C8E67E6E732B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +248,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		24CC6329F6518B46A644C37C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mapkit-simple-v2/Pods-mapkit-simple-v2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E78D5B52EA8C8E67E6E732B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mapkit-simple-v2/Pods-mapkit-simple-v2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF94CA614A805F67E451B750 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ABEBF4BE1CD1C11C00353643 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABEBF4C81CD1C11C00353643 /* ViewController.swift in Sources */,
+				AB566FD91CD2D3840079D035 /* Group.swift in Sources */,
+				ABEBF4E71CD1E9B800353643 /* Constant.swift in Sources */,
+				ABE8D0381CD5BF9B006DF3CA /* GroupVC.swift in Sources */,
+				ABEBF4D91CD1C14700353643 /* DataService.swift in Sources */,
+				ABDE2D021CD6EE02005B71FC /* TJTextField.swift in Sources */,
 				ABEBF4C61CD1C11C00353643 /* AppDelegate.swift in Sources */,
+				ABEBF4E41CD1E9A600353643 /* MaterialTextField.swift in Sources */,
+				ABEBF4E51CD1E9A600353643 /* MaterialView.swift in Sources */,
+				ABDE2D081CD7217E005B71FC /* SignUpVC.swift in Sources */,
+				ABDC62731CD61B1E0015DF13 /* DetailGroupVC.swift in Sources */,
+				ABEBF4E31CD1E9A600353643 /* MaterialButton.swift in Sources */,
+				ABDE2D061CD715E6005B71FC /* miniTableViewCell.swift in Sources */,
+				AB566FD71CD2D37C0079D035 /* Person.swift in Sources */,
+				ABEBF4DF1CD1E83C00353643 /* AuthorizationVC.swift in Sources */,
+				ABDE2D041CD70562005B71FC /* MaterialCell.swift in Sources */,
+				ABE8D03A1CD5C7BE006DF3CA /* NewGroupVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,23 +427,27 @@
 		};
 		ABEBF4D51CD1C11C00353643 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50ED4B65BD9E9F101E95C2C0 /* Pods-mapkit-simple-v2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "mapkit-simple-v2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "vn.hoangthai.mapkit-simple-v2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		ABEBF4D61CD1C11C00353643 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D917E5E2F815C55588A2FF0 /* Pods-mapkit-simple-v2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "mapkit-simple-v2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "vn.hoangthai.mapkit-simple-v2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -287,6 +470,7 @@
 				ABEBF4D61CD1C11C00353643 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
